@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Cliff Height Timer</title>
+
+    <!-- WinJS references -->
+    <!-- At runtime, ui-themed.css resolves to ui-themed.light.css or ui-themed.dark.css 
+    based on the user’s theme setting. This is part of the MRT resource loading functionality. -->
+
+    <!--<script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>-->
+
+    <script src="./js/jquery.min.js"></script>
+    <!-- Cliff_Height_Timer_js.Phone references -->
+    <link href="./css/default.css" rel="stylesheet" />
+    <script src="./js/default.js"></script>
+</head>
+<body class="phone">
+    <h1>Cliff Height Timer</h1>
+    <div class="main">
+        <div class="timer-body">
+            <div class="win-label timer-label">0.00</div>
+            <div class="minor">seconds</div>
+            <div class="win-label computed-height">0.00</div>
+            <div class="minor">feet</div>
+            <div class="win-label computed-height-meters">0.00</div>
+            <div class="minor">meters</div>
+            <div class="message-box"></div>
+            <a class="about-page-link">How to use:</a>
+            <div class="about-page">
+                <div>
+                    Toss the rock from the cliff then time how long it takes to hit the ground.<br/>
+                    You can even measure the height of a cliff from the ground if you throw a rock right up to the top and start timing at the apex.<br />
+                    This app is inspired by Science/Design/Creativity YouTuber Mark Rober.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button-groups">
+        <button class="btnStart">Start</button>
+        <button class="btnReset">Reset</button>
+    </div>
+</body>
+</html>

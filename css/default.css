@@ -1,0 +1,45 @@
+﻿body {
+   text-align: center;
+   color: white;
+   height: 100%;
+   background-color: #464646;
+   font-family: sans-serif, segoe;
+}
+
+.main{
+    margin-left:auto;
+    margin-right:auto;
+     
+display: inline-block;
+  vertical-align: middle;
+}
+.main:before{
+      content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+.win-label{
+    font-size: 450%;
+}
+.minor{
+    font-size: 90%;
+}
+.button-groups{
+    position: absolute;
+    bottom: 0px;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+}
+button{
+    font-size: 200%;
+    width: 200px;
+}
+.about-page{
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+}
